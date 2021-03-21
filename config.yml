@@ -3,11 +3,37 @@ languageCode: en-us
 title: Track Space
 theme: "PaperMod"
 
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
 
 minify:
     disableXML: true
@@ -28,16 +54,6 @@ params:
     showtoc: false
     tocopen: false
 
-    # profile-mode
-    profileMode:
-        enabled: false # needs to be explicitly set
-        title: Track Space
-        subtitle: "Track space app"
-        buttons:
-            - name: Posts
-              url: posts
-            - name: Tags
-              url: tags
 
     # home-info mode
     homeInfoParams:

@@ -11,7 +11,6 @@ hidemeta: true
 comments: false
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
 searchHidden: true
 cover:
     image: "<image path/url>" # image path/url
@@ -21,21 +20,28 @@ cover:
     hidden: true # only hide on current single page
 
 ---
-
+<style>
+    .field{
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+button{
+    font-weight: bold
+}
+    </style>
 Contact us via this form:
-
-<!DOCTYPE HTML>
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label>Your Name: <input type="text" class = "field" name="name" /></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label>Your Email: <input type="email"  class = "field" name="email" /></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Message: <textarea  name="message"  class = "field"></textarea></label>
   </p>
   <p>
-    <button type="submit" class = "btn btn-sm btn-outline-dark tag-btn" >Submit</button>
+    <button type="submit" >Submit</button>
   </p>
+
 </form>
