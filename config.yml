@@ -21,7 +21,7 @@ params:
     disableThemeToggle: false
 
     ShowReadingTime: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     disableSpecial1stPost: false
     comments: false
     hidemeta: false
@@ -63,14 +63,14 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
-          weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
+      #  - identifier: categories
+      #    name: categories
+      #    url: /categories/
+       #   weight: 10
+       # - identifier: tags
+        #  name: tags
+       #   url: /tags/
+      #    weight: 20
         - identifier: contact
           name: contact
           url: /contact/
