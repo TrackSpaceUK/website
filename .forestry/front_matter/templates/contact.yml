@@ -1,0 +1,10 @@
+---
+label: Contact
+hide_body: true
+fields:
+- name: heyo
+  type: text
+  config:
+    required: false
+  label: Heyo
+  description: 'yes'

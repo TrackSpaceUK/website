@@ -1,0 +1,15 @@
+---
+label: Contact form
+hide_body: true
+fields:
+- name: contact
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Contact
+pages:
+- content/contact.md
