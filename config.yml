@@ -58,7 +58,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to the website for Track Space app, an upcoming app for tracking rocket launches
+        Content: Welcome to the website for Track Space app, an upcoming web app for tracking cryptocurrency and stocks
 
 
 
