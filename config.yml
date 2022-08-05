@@ -1,6 +1,6 @@
 baseURL: https://trackspace.co.uk/
 languageCode: en-us
-title: Track Space
+title: TrackSpace
 theme: "PaperMod"
 
 markup:
@@ -58,7 +58,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to the website for Track Space app, an upcoming web app for tracking cryptocurrency and stocks
+        Content: Welcome to the website for TrackSpace, a food truck tracking application
 
 
 
